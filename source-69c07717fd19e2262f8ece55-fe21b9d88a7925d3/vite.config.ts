@@ -7,11 +7,11 @@ import tailwindcss from '@tailwindcss/vite'
 const config = defineConfig({
   base: '/aaswimacademy/', // important for GitHub Pages
   plugins: [
-    viteTsConfigPaths({
-      projects: ['./tsconfig.json'],
-    }),
+    viteTsConfigPaths({ projects: ['./tsconfig.json'] }),
     tailwindcss(),
-    tanstackStart(),
+    tanstackStart({
+      mode: 'client', // <-- important: client-only SPA build
+    }),
     viteReact(),
   ],
 })
