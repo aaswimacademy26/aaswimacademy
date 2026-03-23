@@ -283,7 +283,7 @@ function App() {
               />
         </div>
         <div>
-          <label className="block text-sm font-medium text-slate-700 mb-1.5">Student Age / Type</label>
+          <label className="block text-sm font-medium text-slate-700 mb-1.5">Student Age</label>
           <select
                 name="studentType"
                 className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white text-slate-600"
