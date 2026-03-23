@@ -33,14 +33,14 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-36 text-center relative z-10">
           <div className="inline-flex items-center gap-2 bg-teal-100 text-teal-700 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
             <span>🏊</span>
-            <span>Adaptive Swim Instruction for All Ages &amp; Abilities</span>
+            <span>Swim Instruction for All Ages &amp; Abilities</span>
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-teal-900 leading-tight mb-6">
-            Every Child Deserves to<br/>
+            Everyone Deserves to<br/>
             <span className="text-teal-500">Feel Safe in the Water</span>
           </h1>
           <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-            All Abilities Swim Academy offers personalized, adaptive swim lessons in a warm, supportive environment — designed for children and adults with autism, ADHD, sensory disorders, developmental delays, and more.
+            We offer swim lessons for all abilities, with specialized instruction in survival swimming, adaptive lessons for special needs, and supportive training for adults.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contact" className="bg-teal-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-teal-600 transition-colors shadow-lg shadow-teal-200">Schedule a Free Consultation</a>
@@ -57,10 +57,10 @@ function App() {
               <span className="text-teal-500 font-semibold text-sm uppercase tracking-wider">Our Mission</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mt-2 mb-6">Building Confidence,<br/>One Stroke at a Time</h2>
               <p className="text-slate-600 leading-relaxed mb-4">
-                At All Abilities Swim Academy, we believe water safety and the joy of swimming should be accessible to everyone. Our instructors are trained to work with individuals across a broad spectrum of physical, developmental, and sensory needs.
+                At All Abilities Swim Academy we are committed to providing adaptive swim instruction for children and adults. Our approach is designed to create a positive, comfortable, and supportive learning environment that caters to each individual's unique needs.
               </p>
               <p className="text-slate-600 leading-relaxed mb-6">
-                We take the time to understand each student — their sensitivities, their goals, and their comfort level — to create a lesson plan that truly fits. Progress looks different for every swimmer, and we celebrate every milestone along the way.
+                Our program is built on the foundation of individualized attention and adaptive teaching techniques to help you or your loved one feel confident and empowered in the water.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <div className="flex items-start gap-3">
@@ -68,7 +68,7 @@ function App() {
                     <span className="text-teal-600 text-lg">✓</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-slate-700">Trauma-Informed</div>
+                    <div className="font-semibold text-slate-700">Disability-Informed</div>
                     <div className="text-sm text-slate-500">Patient, compassionate approach</div>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold text-slate-700">Evidence-Based</div>
-                    <div className="text-sm text-slate-500">Proven adaptive techniques</div>
+                    <div className="text-sm text-slate-500">Certified adaptive techniques</div>
                   </div>
                 </div>
               </div>
@@ -117,28 +117,28 @@ function App() {
       <div className="bg-teal-50 rounded-3xl overflow-hidden border border-slate-100">
         <div className="bg-gradient-to-r from-teal-400 to-cyan-400 p-6 text-white">
           <div className="text-4xl mb-2">🐬</div>
-          <h3 className="text-xl font-bold">Beginner Adaptive</h3>
-          <p className="text-white/80 text-sm mt-1">Ages 3+ · All abilities</p>
+          <h3 className="text-xl font-bold">Survival Swimming</h3>
+          <p className="text-white/80 text-sm mt-1">Age 6 month+</p>
         </div>
         <div className="p-6">
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
-            Introduction to water safety and basic swimming skills in a calm, highly personalized one-on-one setting.
+            We teach water safety and emergency survival skills in a calm, highly personalized one-on-one setting.
           </p>
           <ul className="space-y-2">
             <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Water acclimation</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Floating &amp; breathing</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Safety fundamentals</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Confidence building</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Floating</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Breathing</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Safety</li>
           </ul>
         </div>
       </div>
 
-      {/* Intermediate Development */}
+      {/* Adaptive Development */}
       <div className="bg-blue-50 rounded-3xl overflow-hidden border border-slate-100">
         <div className="bg-gradient-to-r from-blue-400 to-teal-400 p-6 text-white">
           <div className="text-4xl mb-2">🌊</div>
-          <h3 className="text-xl font-bold">Intermediate Development</h3>
-          <p className="text-white/80 text-sm mt-1">All ages · Building skills</p>
+          <h3 className="text-xl font-bold">Adaptive lessons for all needs</h3>
+          <p className="text-white/80 text-sm mt-1">Age 6 month+</p>
         </div>
         <div className="p-6">
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
@@ -157,12 +157,12 @@ function App() {
       <div className="bg-cyan-50 rounded-3xl overflow-hidden border border-slate-100">
         <div className="bg-gradient-to-r from-cyan-400 to-sky-400 p-6 text-white">
           <div className="text-4xl mb-2">🏅</div>
-          <h3 className="text-xl font-bold">Advanced &amp; Teen/Adult</h3>
+          <h3 className="text-xl font-bold">Teen/Adult Training</h3>
           <p className="text-white/80 text-sm mt-1">Teens &amp; Adults</p>
         </div>
         <div className="p-6">
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
-            For older swimmers looking to build independence, exercise through swimming, or pursue recreational or competitive swimming goals with adaptive support.
+            We offer supportive lessons for older swimmers with particular care for those with water anxiety or past water trauma.
           </p>
           <ul className="space-y-2">
             <li className="flex items-center gap-2 text-sm text-slate-700">✓ Advanced strokes</li>
