@@ -137,12 +137,12 @@ function App() {
       <div className="bg-blue-50 rounded-3xl overflow-hidden border border-slate-100">
         <div className="bg-gradient-to-r from-blue-400 to-teal-400 p-6 text-white">
           <div className="text-4xl mb-2">🌊</div>
-          <h3 className="text-xl font-bold">Adaptive lessons for all needs</h3>
+          <h3 className="text-xl font-bold">Adaptive Lessons</h3>
           <p className="text-white/80 text-sm mt-1">Age 6 month+</p>
         </div>
         <div className="p-6">
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
-            Develop stroke mechanics, endurance, and water independence. Adapted to each swimmer's physical and cognitive needs.
+            We are certified Swim Whisperers® to teach adaptive survival swim to children and adults with special needs.
           </p>
           <ul className="space-y-2">
             <li className="flex items-center gap-2 text-sm text-slate-700">✓ Stroke technique</li>
@@ -219,10 +219,9 @@ function App() {
     </div>
     <div className="space-y-4">
       {[
-        { q: "What age do you accept?", a: "We accept students starting at age 3, through adulthood. Our programs are tailored to the developmental stage and ability of each individual." },
+        { q: "What age do you accept?", a: "We accept students starting at 6 months of age, given they have hit milestones including sitting up and rolling from left to right unassisted, through adulthood." },
         { q: "Do I need a diagnosis to enroll?", a: "No diagnosis is required. We welcome all students — with or without a formal diagnosis — who may benefit from a more patient, individualized approach to swim instruction." },
-        { q: "What should I bring to the first lesson?", a: "Bring a swimsuit, towel, and any sensory items that help your child feel comfortable (favorite toy, noise-reducing headphones, etc.). We'll handle the rest." },
-        { q: "How long are lessons?", a: "Most lessons are 30 to 45 minutes. Duration can be adjusted based on the student's attention, stamina, and therapeutic needs." },
+        { q: "How long are lessons?", a: "Lessons are 10 to 15 minutes for children and 30 minutes for adults. Duration can be adjusted based on the student's attention, stamina, and needs." },
         { q: "Is financial assistance available?", a: "We strive to make our program accessible. Please contact us to discuss options — we work with families to find solutions when possible." }
       ].map((item, idx) => (
         <details key={idx} className="bg-white border border-teal-100 rounded-2xl group">
