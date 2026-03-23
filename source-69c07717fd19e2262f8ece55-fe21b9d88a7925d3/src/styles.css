@@ -1,0 +1,29 @@
+@import "tailwindcss" source("../");
+
+:root {
+  --color-brand: oklch(62% 0.14 195);       /* teal-500 */
+  --color-brand-dark: oklch(38% 0.10 195);  /* teal-800 */
+  --color-accent: oklch(72% 0.11 210);      /* cyan-400 */
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  color: #1e293b;
+}
+
+code {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Smooth scroll for in-page anchor navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* details/summary open indicator */
+details > summary::-webkit-details-marker {
+  display: none;
+}
