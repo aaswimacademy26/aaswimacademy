@@ -309,9 +309,9 @@ function App() {
       <div>
         <h4 className="font-semibold text-white mb-4">Contact Us</h4>
         <ul className="space-y-2 text-sm text-teal-300">
-          <li>📧 <a href="mailto:info@allabilitiesswim.com" className="hover:text-white transition-colors">info@allabilitiesswim.com</a></li>
-          <li>📞 <a href="tel:+15550000000" className="hover:text-white transition-colors">(555) 000-0000</a></li>
-          <li>📍 Contact us for location details</li>
+          <li>📧 <a href="mailto:aaswimacademy26@gmail.com" className="hover:text-white transition-colors">aaswimacademy26@gmail.com</a></li>
+          <li>📞 <a href="tel:+15172407145" className="hover:text-white transition-colors">(517) 240-7145</a></li>
+          <li>📍 Jackson, MI</li>
         </ul>
       </div>
     </div>
