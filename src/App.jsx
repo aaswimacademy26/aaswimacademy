@@ -230,7 +230,7 @@ function App() {
     </div>
     <div className="space-y-4">
       {[
-        { q: "What age do you accept?", a: "We accept students starting at 6 months of age, given they have hit milestones including sitting up and rolling from left to right unassisted, through adulthood." },
+        { q: "What ages do you accept?", a: "We accept students starting at 6 months of age, given they have hit milestones including sitting up and rolling from left to right unassisted, through adulthood." },
         { q: "How long are lessons?", a: "Lessons are 10 to 15 minutes for kids or 30 minutes for teens/adults. Duration can be adjusted based on the student's attention, stamina, and needs." },
         { q: "How long is the survival swim program?", a: "Most students are able to pass their skill test and graduate from the program in 4 weeks - for a total of 16 sessions in the pool. We also teach parents how to practice with their kids to maintain their survival skills!" },
         { q: "How do I pay?", a: "We utilize Jackrabbit for scheduling and electronic payments. All payments are processed electronically for convenience and efficiency. Cash payment upon request." },
