@@ -22,9 +22,23 @@ function App() {
             <a href="#about" className="hover:text-teal-600 transition-colors">About</a>
             <a href="#programs" className="hover:text-teal-600 transition-colors">Programs</a>
             <a href="#who-we-serve" className="hover:text-teal-600 transition-colors">Who We Serve</a>
-            <a href="#contact" className="bg-teal-500 text-white px-4 py-2 rounded-full hover:bg-teal-600 transition-colors">Get Started</a>
+            <a
+              href="https://app.jackrabbitclass.com/jr4.0/parentportal/login?orgid=557994"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-teal-500 text-white px-4 py-2 rounded-full hover:bg-teal-600 transition-colors"
+            >
+              Register
+            </a>
           </div>
-          <a href="#contact" className="md:hidden bg-teal-500 text-white text-sm px-4 py-2 rounded-full hover:bg-teal-600 transition-colors">Get Started</a>
+          <a
+            href="https://app.jackrabbitclass.com/jr4.0/parentportal/login?orgid=557994"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="md:hidden bg-teal-500 text-white text-sm px-4 py-2 rounded-full hover:bg-teal-600 transition-colors"
+          >
+            Register
+          </a>
         </div>
       </nav>
 
