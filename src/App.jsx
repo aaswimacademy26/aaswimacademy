@@ -125,10 +125,10 @@ function App() {
             We teach water safety and emergency survival skills in a calm, highly personalized one-on-one setting.
           </p>
           <ul className="space-y-2">
-            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Water acclimation</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Floating</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Breathing</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Safety</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Monday-Thursday</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>4 sessions per week</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>$150 per week</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>4 weeks recommended</li>
           </ul>
         </div>
       </div>
@@ -145,10 +145,10 @@ function App() {
             We are certified Swim Whisperers® to teach adaptive survival swim to children and adults with special needs.
           </p>
           <ul className="space-y-2">
-            <li className="flex items-center gap-2 text-sm text-slate-700">✓ Stroke technique</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700">✓ Lap swimming</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700">✓ Turn &amp; kick drills</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700">✓ Endurance building</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Monday-Thursday</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>4 sessions per week</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>$150 per week</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>4 weeks recommended</li>
           </ul>
         </div>
       </div>
@@ -158,17 +158,17 @@ function App() {
         <div className="bg-gradient-to-r from-cyan-400 to-sky-400 p-6 text-white">
           <div className="text-4xl mb-2">🏅</div>
           <h3 className="text-xl font-bold">Teen/Adult Training</h3>
-          <p className="text-white/80 text-sm mt-1">Teens &amp; Adults</p>
+          <p className="text-white/80 text-sm mt-1">Ages 13+</p>
         </div>
         <div className="p-6">
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
             We offer supportive lessons for older swimmers with particular care for those with water anxiety or past water trauma.
           </p>
           <ul className="space-y-2">
-            <li className="flex items-center gap-2 text-sm text-slate-700">✓ Advanced strokes</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700">✓ Fitness swimming</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700">✓ Goal-based training</li>
-            <li className="flex items-center gap-2 text-sm text-slate-700">✓ Lifelong water safety</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Weekdays or weekends</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>Flexible scheduling</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>$50 per session</li>
+            <li className="flex items-center gap-2 text-sm text-slate-700"><span className="w-5 h-5 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-xs flex-shrink-0">✓</span>30 minutes per session</li>
           </ul>
         </div>
       </div>
@@ -220,9 +220,10 @@ function App() {
     <div className="space-y-4">
       {[
         { q: "What age do you accept?", a: "We accept students starting at 6 months of age, given they have hit milestones including sitting up and rolling from left to right unassisted, through adulthood." },
+        { q: "How long are lessons?", a: "Lessons are 10 to 15 minutes for kids or 30 minutes for teens/adults. Duration can be adjusted based on the student's attention, stamina, and needs." },
+        { q: "How long is the survival swim program?", a: "Most students are able to pass their skill test and graduate from the program in 4 weeks - for a total of 16 sessions in the pool. We also teach parents how to practice with their kids to maintain their survival skills!" },
         { q: "Do I need a diagnosis to enroll?", a: "No diagnosis is required. We welcome all students — with or without a formal diagnosis — who may benefit from a more patient, individualized approach to swim instruction." },
-        { q: "How long are lessons?", a: "Lessons are 10 to 15 minutes for children or 30 minutes for adults. Duration can be adjusted based on the student's attention, stamina, and needs." },
-        { q: "Is financial assistance available?", a: "We strive to make our program accessible. Please contact us to discuss options — we work with families to find solutions when possible." }
+        { q: "Is financial assistance available?", a: "We strive to make our program as accessible as possible. Please contact us to discuss options — we work with families to find solutions." }
       ].map((item, idx) => (
         <details key={idx} className="bg-white border border-teal-100 rounded-2xl group">
           <summary className="p-5 font-semibold text-slate-700 cursor-pointer list-none flex items-center justify-between hover:text-teal-700 transition-colors">
@@ -266,7 +267,7 @@ function App() {
           <label className="block text-sm font-medium text-slate-700 mb-1.5">Student Age / Type</label>
           <select className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white text-slate-600">
             <option value="">Select an option...</option>
-            <option>Child (3–12)</option>
+            <option>Child (0–12)</option>
             <option>Teen (13–17)</option>
             <option>Adult (18+)</option>
           </select>
