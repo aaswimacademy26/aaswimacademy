@@ -108,3 +108,15 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* Layout helpers */
+.section {
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1126px;
+  margin: 0 auto;
+  padding: 0 16px; /* helps on mobile */
+}
