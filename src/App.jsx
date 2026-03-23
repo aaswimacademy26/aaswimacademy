@@ -248,34 +248,60 @@ function App() {
       action="https://formspree.io/f/xdawqerb" 
       method="POST"
       className="bg-slate-50 rounded-3xl p-8 border border-slate-100 space-y-5">
+      <input type="hidden" name="_subject" value="New Swim Inquiry" />
+      
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
           <label className="block text-sm font-medium text-slate-700 mb-1.5">Your Name <span className="text-teal-500">*</span></label>
-          <input type="text" required placeholder="Jane Smith" className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white"/>
+          <input
+                type="text"
+                name="name"
+                required
+                placeholder="Jane Smith"
+                className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white"
+              />
         </div>
         <div>
           <label className="block text-sm font-medium text-slate-700 mb-1.5">Email Address <span className="text-teal-500">*</span></label>
-          <input type="email" required placeholder="jane@example.com" className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white"/>
+          <input
+                type="email"
+                name="email"
+                required
+                placeholder="jane@example.com"
+                className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white"
+              />
         </div>
       </div>
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
           <label className="block text-sm font-medium text-slate-700 mb-1.5">Phone Number</label>
-          <input type="tel" placeholder="(555) 000-0000" className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white"/>
+          <input
+                type="tel"
+                name="phone"
+                placeholder="(555) 000-0000"
+                className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white"
+              />
         </div>
         <div>
           <label className="block text-sm font-medium text-slate-700 mb-1.5">Student Age / Type</label>
-          <select className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white text-slate-600">
+          <select
+                name="studentType"
+                className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white text-slate-600"
+              >
             <option value="">Select an option...</option>
-            <option>Child (0–12)</option>
-            <option>Teen (13–17)</option>
+            <option>Child (0–17)</option>
             <option>Adult (18+)</option>
           </select>
         </div>
       </div>
       <div>
         <label className="block text-sm font-medium text-slate-700 mb-1.5">Tell us about your swimmer's needs</label>
-        <textarea rows="4" placeholder="Share any relevant background, special considerations, or questions..." className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white resize-none"></textarea>
+        <textarea
+                name="message"
+                rows="4"
+                placeholder="Share any relevant background, special considerations, or questions..."
+                className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-100 bg-white resize-none"
+              />
       </div>
       <button type="submit" className="w-full bg-teal-500 text-white font-semibold py-4 rounded-xl hover:bg-teal-600 transition-colors shadow-md shadow-teal-100 text-base">
         Send Message — We'll Be in Touch
