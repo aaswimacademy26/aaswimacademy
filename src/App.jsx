@@ -221,7 +221,7 @@ function App() {
       {[
         { q: "What age do you accept?", a: "We accept students starting at 6 months of age, given they have hit milestones including sitting up and rolling from left to right unassisted, through adulthood." },
         { q: "Do I need a diagnosis to enroll?", a: "No diagnosis is required. We welcome all students — with or without a formal diagnosis — who may benefit from a more patient, individualized approach to swim instruction." },
-        { q: "How long are lessons?", a: "Lessons are 10 to 15 minutes for children and 30 minutes for adults. Duration can be adjusted based on the student's attention, stamina, and needs." },
+        { q: "How long are lessons?", a: "Lessons are 10 to 15 minutes for children or 30 minutes for adults. Duration can be adjusted based on the student's attention, stamina, and needs." },
         { q: "Is financial assistance available?", a: "We strive to make our program accessible. Please contact us to discuss options — we work with families to find solutions when possible." }
       ].map((item, idx) => (
         <details key={idx} className="bg-white border border-teal-100 rounded-2xl group">
@@ -293,7 +293,7 @@ function App() {
           <span className="font-bold text-white text-lg">All Abilities Swim Academy</span>
         </div>
         <p className="text-sm text-teal-300 leading-relaxed">
-          Adaptive swim instruction for children and adults of all abilities — in a positive, comfortable, and supportive environment.
+          Adaptive swim instruction for children and adults of all abilities.
         </p>
       </div>
       <div>
@@ -316,7 +316,7 @@ function App() {
     </div>
     <div className="border-t border-teal-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-teal-400">
       <span>© 2026 All Abilities Swim Academy. All rights reserved.</span>
-      <span>Inclusive · Adaptive · Empowering</span>
+      <span>Safe · Adaptive · Empowering</span>
     </div>
   </div>
 </footer>
