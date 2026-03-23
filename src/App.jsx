@@ -244,7 +244,10 @@ function App() {
         Reach out for a free consultation. We'll discuss your goals, answer any questions, and find the right program for your swimmer.
       </p>
     </div>
-    <form className="bg-slate-50 rounded-3xl p-8 border border-slate-100 space-y-5">
+    <form
+      action="https://formspree.io/f/xdawqerb" 
+      method="POST"
+      className="bg-slate-50 rounded-3xl p-8 border border-slate-100 space-y-5">
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
           <label className="block text-sm font-medium text-slate-700 mb-1.5">Your Name <span className="text-teal-500">*</span></label>
