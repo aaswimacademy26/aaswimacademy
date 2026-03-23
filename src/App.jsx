@@ -116,7 +116,6 @@ function App() {
       {/* Beginner Adaptive */}
       <div className="bg-teal-50 rounded-3xl overflow-hidden border border-slate-100">
         <div className="bg-gradient-to-r from-teal-400 to-cyan-400 p-6 text-white">
-          <div className="text-4xl mb-2">🐬</div>
           <h3 className="text-xl font-bold">Survival Swimming</h3>
           <p className="text-white/80 text-sm mt-1">Age 6 month+</p>
         </div>
@@ -136,7 +135,6 @@ function App() {
       {/* Adaptive Development */}
       <div className="bg-blue-50 rounded-3xl overflow-hidden border border-slate-100">
         <div className="bg-gradient-to-r from-blue-400 to-teal-400 p-6 text-white">
-          <div className="text-4xl mb-2">🌊</div>
           <h3 className="text-xl font-bold">Adaptive Lessons</h3>
           <p className="text-white/80 text-sm mt-1">Age 6 month+</p>
         </div>
@@ -156,7 +154,6 @@ function App() {
       {/* Advanced & Teen/Adult */}
       <div className="bg-cyan-50 rounded-3xl overflow-hidden border border-slate-100">
         <div className="bg-gradient-to-r from-cyan-400 to-sky-400 p-6 text-white">
-          <div className="text-4xl mb-2">🏅</div>
           <h3 className="text-xl font-bold">Teen/Adult Training</h3>
           <p className="text-white/80 text-sm mt-1">Ages 13+</p>
         </div>
