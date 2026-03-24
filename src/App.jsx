@@ -8,12 +8,12 @@ function App() {
     <div className="font-sans text-slate-800 bg-white">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-teal-100 shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
             <img
               src={logoWide}
               alt="All Abilities Swim Academy Logo"
-              className="h-10 sm:h-12 object-contain"
+              className="h-12 sm:h-16 object-contain"
             />
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
