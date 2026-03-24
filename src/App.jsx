@@ -2,19 +2,22 @@ import React from "react";
 import "./assets/main-Cd4GyK1f.css";
 import logo from "./assets/aasa_logo.png";
 import logoWide from "./assets/aasa_logo_wide.png";
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Facebook,
-  Puzzle,
-  Zap,
-  Droplet,
-  Activity,
-  Heart,
-  User,
-  Star
-} from "lucide-react";
+
+// React Icons imports
+import { 
+  FaEnvelope, 
+  FaPhone, 
+  FaMapMarkerAlt, 
+  FaFacebook, 
+  FaPuzzlePiece, 
+  FaBolt, 
+  FaWater, 
+  FaLeaf, 
+  FaHeart, 
+  FaRunning, 
+  FaUser, 
+  FaStar 
+} from "react-icons/fa";
 
 function App() {
   return (
@@ -209,24 +212,23 @@ function App() {
       </p>
     </div>
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {/* Each card (Autism, ADHD, etc.) */}
       {[
-        { emoji: "🧩", title: "Autism Spectrum Disorder", desc: "Sensory-sensitive environment, predictable routines, visual supports" },
-        { emoji: "⚡", title: "ADHD", desc: "Structured, engaging lessons with clear expectations and positive reinforcement" },
-        { emoji: "🌊", title: "Sensory Processing Disorders", desc: "Gradual water introduction, tactile considerations, calming techniques" },
-        { emoji: "🌱", title: "Developmental Delays", desc: "Milestone-based progression at each student's individual pace" },
-        { emoji: "💙", title: "Anxiety & Aquaphobia", desc: "Compassionate, pressure-free approach to building water confidence" },
-        { emoji: "🦾", title: "Limb Differences & Amputations", desc: "Adapted stroke techniques and equipment for all body types" },
-        { emoji: "🏃", title: "Physical Disabilities", desc: "Modified techniques for a wide range of physical conditions" },
-        { emoji: "👨‍👩‍👧", title: "Neurotypical Learners", desc: "All students are welcome — our methods benefit every swimmer" },
-        { emoji: "🌟", title: "& Many More", desc: "Contact us to discuss your or your child's specific situation" },
-      ].map((item, idx) => (
-        <div key={idx} className="bg-white border border-teal-100 rounded-2xl p-6 hover:shadow-md hover:border-teal-300 transition-all group">
-          <div className="text-3xl mb-3">{item.emoji}</div>
-          <h3 className="font-semibold text-slate-800 mb-2 group-hover:text-teal-700 transition-colors">{item.title}</h3>
-          <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
-        </div>
-      ))}
+          { icon: <FaPuzzlePiece />, title: "Autism Spectrum Disorder", desc: "Sensory-sensitive environment, predictable routines, visual supports" },
+          { icon: <FaBolt />, title: "ADHD", desc: "Structured, engaging lessons with clear expectations and positive reinforcement" },
+          { icon: <FaWater />, title: "Sensory Processing Disorders", desc: "Gradual water introduction, tactile considerations, calming techniques" },
+          { icon: <FaLeaf />, title: "Developmental Delays", desc: "Milestone-based progression at each student's individual pace" },
+          { icon: <FaHeart />, title: "Anxiety & Aquaphobia", desc: "Compassionate, pressure-free approach to building water confidence" },
+          { icon: <FaUser />, title: "Limb Differences & Amputations", desc: "Adapted stroke techniques and equipment for all body types" },
+          { icon: <FaRunning />, title: "Physical Disabilities", desc: "Modified techniques for a wide range of physical conditions" },
+          { icon: <FaUser />, title: "Neurotypical Learners", desc: "All students are welcome — our methods benefit every swimmer" },
+          { icon: <FaStar />, title: "& Many More", desc: "Contact us to discuss your or your child's specific situation" },
+        ].map((item, idx) => (
+          <div key={idx} className="bg-white border border-teal-100 rounded-2xl p-6 hover:shadow-md hover:border-teal-300 transition-all group">
+            <div className="text-3xl mb-3">{item.icon}</div>
+            <h3 className="font-semibold text-slate-800 mb-2 group-hover:text-teal-700 transition-colors">{item.title}</h3>
+            <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
+          </div>
+        ))}
     </div>
   </div>
 </section>
@@ -360,26 +362,26 @@ function App() {
         <h4 className="font-semibold text-white mb-4">Contact Us</h4>
         <ul className="space-y-2 text-sm text-teal-300">
           <li className="flex items-center gap-2">
-            <Mail size={16} />
+            <FaEnvelope size={16} />
             <a href="mailto:aaswimacademy26@gmail.com" className="hover:text-white transition-colors">
               aaswimacademy26@gmail.com
             </a>
           </li>
-      
+        
           <li className="flex items-center gap-2">
-            <Phone size={16} />
+            <FaPhone size={16} />
             <a href="tel:+15172407145" className="hover:text-white transition-colors">
               (517) 240-7145
             </a>
           </li>
-      
+        
           <li className="flex items-center gap-2">
-            <MapPin size={16} />
+            <FaMapMarkerAlt size={16} />
             Jackson, MI
           </li>
-      
+        
           <li className="flex items-center gap-2">
-            <Facebook size={16} />
+            <FaFacebook size={16} />
             <a
               href="https://www.facebook.com/people/All-Abilities-Swim-Academy/61587117376458/"
               target="_blank"
