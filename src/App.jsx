@@ -14,7 +14,7 @@ import {
   FaWater, 
   FaLeaf, 
   FaHeart, 
-  FaRunning, 
+  FaWheelchair, 
   FaUser, 
   FaStar 
 } from "react-icons/fa";
@@ -220,7 +220,7 @@ function App() {
           { icon: <FaLeaf />, title: "Developmental Delays", desc: "Milestone-based progression at each student's individual pace" },
           { icon: <FaHeart />, title: "Anxiety & Aquaphobia", desc: "Compassionate, pressure-free approach to building water confidence" },
           { icon: <GiRobotLeg />, title: "Limb Differences & Amputations", desc: "Adapted stroke techniques and equipment for all body types" },
-          { icon: <FaRunning />, title: "Physical Disabilities", desc: "Modified techniques for a wide range of physical conditions" },
+          { icon: <FaWheelchair />, title: "Physical Disabilities", desc: "Modified techniques for a wide range of physical conditions" },
           { icon: <FaUser />, title: "Neurotypical Learners", desc: "All students are welcome — our methods benefit every swimmer" },
           { icon: <FaStar />, title: "& Many More", desc: "Contact us to discuss your or your child's specific situation" },
         ].map((item, idx) => (
