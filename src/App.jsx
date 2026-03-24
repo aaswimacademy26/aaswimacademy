@@ -2,8 +2,20 @@ import React from "react";
 import "./assets/main-Cd4GyK1f.css";
 import logo from "./assets/aasa_logo.png";
 import logoWide from "./assets/aasa_logo_wide.png";
-import { Mail, Phone, MapPin, Facebook } from "lucide-react";
-import { Puzzle, Zap, Droplet, Activity, Heart, HardHat, User, Star } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Facebook,
+  Puzzle,
+  Zap,
+  Droplet,
+  Activity,
+  Heart,
+  HardHat,
+  User,
+  Star
+} from "lucide-react";
 
 function App() {
   return (
@@ -348,29 +360,37 @@ function App() {
       <div>
         <h4 className="font-semibold text-white mb-4">Contact Us</h4>
         <ul className="space-y-2 text-sm text-teal-300">
-            <li className="flex items-center gap-2">
-              <Mail size={16} />
-              <a href="mailto:aaswimacademy26@gmail.com" className="hover:text-white transition-colors">
-                aaswimacademy26@gmail.com
-              </a>
-            </li>
-            <li className="flex items-center gap-2">
-              <Phone size={16} />
-              <a href="tel:+15172407145" className="hover:text-white transition-colors">
-                (517) 240-7145
-              </a>
-            </li>
-            <li className="flex items-center gap-2">
-              <MapPin size={16} />
-              Jackson, MI
-            </li>
-            <li className="flex items-center gap-2">
-              <Facebook size={16} />
-              <a href="https://www.facebook.com/people/All-Abilities-Swim-Academy/61587117376458/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                Facebook
-              </a>
-            </li>
-          </ul>
+          <li className="flex items-center gap-2">
+            <Mail size={16} />
+            <a href="mailto:aaswimacademy26@gmail.com" className="hover:text-white transition-colors">
+              aaswimacademy26@gmail.com
+            </a>
+          </li>
+      
+          <li className="flex items-center gap-2">
+            <Phone size={16} />
+            <a href="tel:+15172407145" className="hover:text-white transition-colors">
+              (517) 240-7145
+            </a>
+          </li>
+      
+          <li className="flex items-center gap-2">
+            <MapPin size={16} />
+            Jackson, MI
+          </li>
+      
+          <li className="flex items-center gap-2">
+            <Facebook size={16} />
+            <a
+              href="https://www.facebook.com/people/All-Abilities-Swim-Academy/61587117376458/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              Facebook
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <div className="border-t border-teal-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-teal-400">
@@ -379,7 +399,6 @@ function App() {
     </div>
   </div>
 </footer>
-      {/* Repeat the same JSX conversion method for each section */}
     </div>
   );
 }
