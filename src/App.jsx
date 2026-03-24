@@ -99,15 +99,13 @@ function App() {
             </div>
 
             {/* Placeholder for image or illustration */}
-            <div className="relative">
-                <div className="bg-gradient-to-br from-teal-100 to-blue-100 rounded-3xl p-8 aspect-square flex items-center justify-center">
-                  <img
-                    src={logo}
-                    alt="All Abilities Swim Academy Logo"
-                    className="max-w-full max-h-full object-contain"
-                  />
-                </div>
-              </div>
+            <div className="relative flex items-center justify-center aspect-square">
+              <img
+                src={logo}
+                alt="All Abilities Swim Academy Logo"
+                className="w-full h-full object-contain"
+              />
+            </div>
           </div>
         </div>
       </section>
