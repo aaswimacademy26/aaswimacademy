@@ -1,6 +1,7 @@
 import React from "react";
 import "./assets/main-Cd4GyK1f.css";
 import logo from "./assets/aasa_logo.png";
+import logoWide from "./assets/aasa_logo_wide.png";
 
 function App() {
   return (
@@ -9,15 +10,11 @@ function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-teal-100 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
-            <svg className="w-8 h-8 text-teal-500" viewBox="0 0 32 32" fill="none">
-              <path d="M2 22 C6 18, 10 26, 14 22 C18 18, 22 26, 26 22 C28 20, 29 19, 30 18" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
-              <path d="M2 16 C6 12, 10 20, 14 16 C18 12, 22 20, 26 16 C28 14, 29 13, 30 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" opacity="0.5" />
-              <circle cx="16" cy="8" r="3" fill="currentColor" opacity="0.8"></circle>
-            </svg>
-            <span className="font-bold text-lg text-teal-800 leading-tight">
-              All Abilities<br className="hidden sm:block"/>
-              <span className="text-teal-500"> Swim Academy</span>
-            </span>
+            <img
+              src={logoWide}
+              alt="All Abilities Swim Academy Logo"
+              className="h-10 sm:h-12 object-contain"
+            />
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
             <a href="#about" className="hover:text-teal-600 transition-colors">About</a>
