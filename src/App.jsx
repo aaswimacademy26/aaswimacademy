@@ -388,7 +388,7 @@ function App() {
               <div className="flex items-center gap-3 mb-4">
                 <span className="font-bold text-white text-lg">All Abilities Swim Academy</span>
               </div>
-              <p className="text-sm text-teal-300 leading-relaxed">
+              <p className="text-sm text-teal-300 leading-relaxed text-left">
                 Adaptive swim instruction for children and adults of all abilities.
               </p>
             </div>
