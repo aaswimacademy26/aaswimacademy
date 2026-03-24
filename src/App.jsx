@@ -64,21 +64,40 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative pt-16 bg-gradient-to-br from-teal-50 via-blue-50 to-cyan-50 overflow-hidden">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-36 text-center relative z-10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-36 flex flex-col items-center text-center relative z-10">
+          
+          {/* Tagline */}
           <div className="inline-flex items-center gap-2 bg-teal-100 text-teal-700 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
             <span>Swim Instruction for All Ages &amp; Abilities</span>
           </div>
+      
+          {/* Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-teal-900 leading-tight mb-6">
             Everyone Deserves to<br/>
             <span className="text-teal-500">Feel Safe in the Water</span>
           </h1>
-          <p style={{ textWrap: 'balance' }} className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed text-center">
+      
+          {/* Paragraph */}
+          <p className="text-lg sm:text-xl text-slate-600 mb-10 leading-relaxed w-full sm:w-[672px]">
             We offer swim lessons for all abilities, with specialized instruction in survival swimming, adaptive lessons for special needs, and supportive training for adults.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#contact" className="bg-teal-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-teal-600 transition-colors shadow-lg shadow-teal-200">Schedule a Free Consultation</a>
-            <a href="#programs" className="bg-white text-teal-700 border-2 border-teal-200 px-8 py-4 rounded-full text-lg font-semibold hover:border-teal-400 hover:bg-teal-50 transition-colors">Explore Programs</a>
+      
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
+            <a
+              href="#contact"
+              className="bg-teal-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-teal-600 transition-colors shadow-lg shadow-teal-200"
+            >
+              Schedule a Free Consultation
+            </a>
+            <a
+              href="#programs"
+              className="bg-white text-teal-700 border-2 border-teal-200 px-8 py-4 rounded-full text-lg font-semibold hover:border-teal-400 hover:bg-teal-50 transition-colors"
+            >
+              Explore Programs
+            </a>
           </div>
+      
         </div>
       </section>
 
