@@ -53,7 +53,7 @@ function App() {
             Everyone Deserves to<br/>
             <span className="text-teal-500">Feel Safe in the Water</span>
           </h1>
-          <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed text-center text-balance">
+          <p style={{ textWrap: 'balance' }} className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed text-center">
             We offer swim lessons for all abilities, with specialized instruction in survival swimming, adaptive lessons for special needs, and supportive training for adults.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
