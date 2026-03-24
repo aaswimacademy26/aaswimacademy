@@ -78,7 +78,7 @@ function App() {
           </h1>
       
           {/* Paragraph */}
-          <p className="text-lg sm:text-xl text-slate-600 mb-10 leading-relaxed w-full sm:w-[672px]">
+          <p className="text-lg sm:text-xl text-slate-600 mb-16 leading-relaxed w-full sm:w-[672px]">
             We offer swim lessons for all abilities, with specialized instruction in survival swimming, adaptive lessons for special needs, and supportive training for adults.
           </p>
       
