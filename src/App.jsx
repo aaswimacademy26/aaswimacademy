@@ -12,7 +12,6 @@ import {
   Droplet,
   Activity,
   Heart,
-  HardHat,
   User,
   Star
 } from "lucide-react";
