@@ -1,5 +1,6 @@
 import React from "react";
 import "./assets/main-Cd4GyK1f.css";
+import logo from "./assets/aasa_logo.png";
 
 function App() {
   return (
@@ -99,17 +100,14 @@ function App() {
 
             {/* Placeholder for image or illustration */}
             <div className="relative">
-              <div className="bg-gradient-to-br from-teal-100 to-blue-100 rounded-3xl p-8 aspect-square flex items-center justify-center">
-                <div className="text-center">
-                  <svg className="w-24 h-24 text-teal-400 mx-auto mb-4" viewBox="0 0 100 120" fill="none">
-                    <path d="M50 10 C50 10, 15 55, 15 75 C15 95, 31 110, 50 110 C69 110, 85 95, 85 75 C85 55, 50 10, 50 10Z" fill="currentColor" opacity="0.2"></path>
-                    <path d="M50 10 C50 10, 15 55, 15 75 C15 95, 31 110, 50 110 C69 110, 85 95, 85 75 C85 55, 50 10, 50 10Z" stroke="currentColor" strokeWidth="3" fill="none"></path>
-                    <path d="M35 80 C35 68, 42 60, 50 58" stroke="currentColor" strokeWidth="3" strokeLinecap="round" opacity="0.6"></path>
-                  </svg>
-                  <p className="text-teal-700 font-medium text-lg">&quot;Every swimmer is capable of progress in the right environment.&quot;</p>
+                <div className="bg-gradient-to-br from-teal-100 to-blue-100 rounded-3xl p-8 aspect-square flex items-center justify-center">
+                  <img
+                    src={logo}
+                    alt="All Abilities Swim Academy Logo"
+                    className="max-w-full max-h-full object-contain"
+                  />
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </section>
