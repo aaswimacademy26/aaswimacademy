@@ -6,16 +6,17 @@ import logoWide from "./assets/aasa_logo_wide.png";
 function App() {
   return (
     <div className="font-sans text-slate-800 bg-white">
-      {/* Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-teal-100 shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
+      <div className="flex items-center justify-between max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16">
+          {/* Logo */}
           <div className="flex items-center gap-3">
             <img
               src={logoWide}
               alt="All Abilities Swim Academy Logo"
-              className="h-12 sm:h-16 object-contain"
+              className="h-8 sm:h-10 object-contain"
             />
           </div>
+        
+          {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
             <a href="#about" className="hover:text-teal-600 transition-colors">About</a>
             <a href="#programs" className="hover:text-teal-600 transition-colors">Programs</a>
@@ -29,6 +30,8 @@ function App() {
               Register
             </a>
           </div>
+        
+          {/* Mobile Register */}
           <a
             href="https://app.jackrabbitclass.com/jr4.0/parentportal/login?orgid=557994"
             target="_blank"
