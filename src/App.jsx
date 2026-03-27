@@ -2,6 +2,7 @@ import React from "react";
 import "./assets/main-Cd4GyK1f.css";
 import logo from "./assets/aasa_logo.png";
 import logoWide from "./assets/aasa_logo_wide.png";
+import poolPic1 from "./assets/pool_pic1.jpeg";
 
 // React Icons imports
 import { 
@@ -76,7 +77,14 @@ function App() {
             Everyone Deserves to<br/>
             <span className="text-teal-500">Feel Safe in the Water</span>
           </h1>
-      
+          
+          {/* Hero Image */}
+          <img
+            src={poolPic1}
+            alt="Swimming lesson in pool"
+            className="w-full max-w-3xl rounded-2xl shadow-xl object-cover"
+          />
+          
           {/* Paragraph */}
           <p className="text-lg sm:text-xl text-slate-600 leading-relaxed w-full sm:w-[672px]">
             We offer swim lessons for all abilities, with specialized instruction in survival swimming, adaptive lessons for special needs, and supportive training for adults.
