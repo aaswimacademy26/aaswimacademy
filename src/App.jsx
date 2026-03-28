@@ -185,15 +185,15 @@ function App() {
           </div>
       
           {/* Content Row */}
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
       
             {/* Left Image */}
-            <div className="flex justify-center">
+            <div className="flex justify-center h-full">
               <img
-                src={coachJodi}
-                alt="Coach Jodi"
-                className="w-full max-w-md rounded-3xl shadow-lg object-cover"
-              />
+                  src={coachJodi}
+                  alt="Coach Jodi"
+                  className="w-full h-full max-w-md rounded-3xl shadow-lg object-cover"
+                />
             </div>
       
             {/* Right Bio */}
