@@ -3,7 +3,7 @@ import "./assets/main-Cd4GyK1f.css";
 import logo from "./assets/aasa_logo.png";
 import logoWide from "./assets/aasa_logo_wide.png";
 import poolPic1 from "./assets/pool_pic1.jpeg";
-import coachJodi from "./assets/coach_jodi.jpeg";
+import coachJodi from "./assets/coach_jodi.jpg";
 
 // React Icons imports
 import { 
