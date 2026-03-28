@@ -3,6 +3,7 @@ import "./assets/main-Cd4GyK1f.css";
 import logo from "./assets/aasa_logo.png";
 import logoWide from "./assets/aasa_logo_wide.png";
 import poolPic1 from "./assets/pool_pic1.jpeg";
+import coachJodi from "./assets/coach_jodi.jpeg";
 
 // React Icons imports
 import { 
@@ -163,6 +164,51 @@ function App() {
                 alt="All Abilities Swim Academy Logo"
                 className="w-full h-full object-contain"
               />
+            </div>
+      
+          </div>
+        </div>
+      </section>
+
+      {/* Staff Section */}
+      <section id="staff" className="py-20 bg-slate-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+          {/* Section Header */}
+          <div className="mb-12">
+            <span className="text-teal-500 font-semibold text-sm uppercase tracking-wider">
+              Our Staff
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mt-2">
+              Coach Jodi
+            </h2>
+          </div>
+      
+          {/* Content Row */}
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+      
+            {/* Left Image */}
+            <div className="flex justify-center">
+              <img
+                src={coachJodi}
+                alt="Coach Jodi"
+                className="w-full max-w-md rounded-3xl shadow-lg object-cover"
+              />
+            </div>
+      
+            {/* Right Bio */}
+            <div className="flex flex-col gap-5">
+              <p className="text-slate-600 leading-relaxed">
+                Coach Jodi has been swimming since the age of four, beginning her competitive journey with the Elk Grove Piranhas Swim Team in California. At age nine, she began training under Olympic Coach Sherm Chavoor, who coached legendary athletes such as Mark Spitz, Debbie Meyer, and Mike Burton.
+              </p>
+      
+              <p className="text-slate-600 leading-relaxed">
+                She started teaching swimming lessons at age 16 and has since dedicated her career to specialized instruction. She is IBCCES Autism Certified and a Level 2 Swim Angelfish Adaptive Swim Instructor. Specializing in working with students with a variety of special needs, including  Autism Spectrum Disorder Levels 1, 2, and 3, verbal and non-verbal.
+              </p>
+      
+              <p className="text-slate-600 leading-relaxed">
+                She believes every student learns differently and at their own pace. Because of this, she uses a personalized, one-on-one teaching approach designed to build confidence and ensure success for every individual in the water.
+              </p>
             </div>
       
           </div>
