@@ -233,21 +233,21 @@ function App() {
               title: "Survival Swimming",
               subtitle: "Age 6 month+",
               description: "We teach water safety and emergency survival skills in a calm, highly personalized one-on-one setting.",
-              features: ["Monday-Thursday", "4 sessions per week", "$150 per week", "4 weeks recommended"],
+              features: ["Monday-Thursday", "4 sessions per week", "$170 per week", "4 weeks recommended"],
               gradient: "from-teal-400 to-cyan-400",
               bgColor: "bg-teal-50"
             }, {
               title: "Adaptive Lessons",
               subtitle: "Age 6 month+",
               description: "We are certified Swim Whisperers® to teach adaptive survival swim to children and adults with special needs.",
-              features: ["Monday-Thursday", "4 sessions per week", "$150 per week", "4 weeks recommended"],
+              features: ["Monday-Thursday", "4 sessions per week", "$170 per week", "4 weeks recommended"],
               gradient: "from-blue-400 to-teal-400",
               bgColor: "bg-blue-50"
             }, {
               title: "Teen/Adult Training",
               subtitle: "Ages 13+",
               description: "We offer supportive lessons for older swimmers with particular care for those with water anxiety or past water trauma.",
-              features: ["Weekdays or weekends", "Flexible scheduling", "$50 per session", "30 minutes per session"],
+              features: ["Weekdays or weekends", "Flexible scheduling", "$60 per session", "30 minutes per session"],
               gradient: "from-cyan-400 to-sky-400",
               bgColor: "bg-cyan-50"
             }].map((program, idx) => (
@@ -324,6 +324,7 @@ function App() {
               { q: "How long are lessons?", a: "Lessons are 10 to 15 minutes for kids or 30 minutes for teens/adults. Duration can be adjusted based on the student's attention, stamina, and needs." },
               { q: "How long is the survival swim program?", a: "Most students are able to pass their skill test and graduate from the program in 4 weeks - for a total of 16 sessions in the pool. We also teach parents how to practice with their kids to maintain their survival skills!" },
               { q: "How do I pay?", a: "We utilize Jackrabbit for scheduling and electronic payments. All payments are processed electronically for convenience and efficiency. Cash payment upon request." },
+              { q: "How much does it cost to register?", a: "There is a $25.00 non-refundable registration fee that is good for 12 months. This allows you to reserve a time slot until the 30 day pay-in-full deadline. This does not go towards session fees." },
               { q: "Is financial assistance available?", a: "We strive to make our program as accessible as possible. Please contact us to discuss options — we work with families to find solutions." }
             ].map((item, idx) => (
               <details key={idx} className="bg-white border border-teal-100 rounded-2xl group">
