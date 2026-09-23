@@ -233,21 +233,21 @@ function App() {
               title: "Survival Swimming",
               subtitle: "Age 6 month+",
               description: "We teach water safety and emergency survival skills in a calm, highly personalized one-on-one setting.",
-              features: ["Monday-Thursday", "4 sessions per week", "$170 per week", "4 weeks recommended"],
+              features: ["Monday-Thursday", "4 sessions per week", "$170 per week", "~4 weeks to complete"],
               gradient: "from-teal-400 to-cyan-400",
               bgColor: "bg-teal-50"
             }, {
               title: "Adaptive Lessons",
               subtitle: "Age 6 month+",
               description: "We are certified Swim Whisperers® to teach adaptive survival swim to children and adults with special needs.",
-              features: ["Monday-Thursday", "4 sessions per week", "$170 per week", "4 weeks recommended"],
+              features: ["Monday-Thursday", "4 sessions per week", "$170 per week", "~4 weeks to complete"],
               gradient: "from-blue-400 to-teal-400",
               bgColor: "bg-blue-50"
             }, {
               title: "Teen/Adult Training",
               subtitle: "Ages 13+",
               description: "We offer supportive lessons for older swimmers with particular care for those with water anxiety or past water trauma.",
-              features: ["Weekdays or weekends", "Flexible scheduling", "$60 per session", "30 minutes per session"],
+              features: ["Weekdays or weekends", "Flexible scheduling", "$55 + $5 pool fee per session", "30 minutes per session"],
               gradient: "from-cyan-400 to-sky-400",
               bgColor: "bg-cyan-50"
             }].map((program, idx) => (
