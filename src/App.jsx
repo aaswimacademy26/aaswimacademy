@@ -1,5 +1,7 @@
 import React from "react";
 import "./assets/main-Cd4GyK1f.css";
+import "./schedule.css";
+import { scheduleDocument } from "./scheduleEmbed.js";
 import logo from "./assets/aasa_logo.png";
 import logoWide from "./assets/aasa_logo_wide.png";
 import poolPic1 from "./assets/pool_pic1.jpeg";
@@ -22,6 +24,9 @@ import {
 } from "react-icons/fa";
 import { GiRobotLeg } from "react-icons/gi";
 
+const classScheduleUrl = "https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsDirect?OrgID=557994";
+const eventCalendarUrl = "https://app.jackrabbitclass.com/eventcalendar.asp?orgid=557994";
+
 function App() {
   return (
     <div className="font-sans text-slate-800 bg-white">
@@ -41,6 +46,7 @@ function App() {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
             <a href="#about" className="hover:text-teal-600 transition-colors">About</a>
             <a href="#programs" className="hover:text-teal-600 transition-colors">Programs</a>
+            <a href="#schedule" className="hover:text-teal-600 transition-colors">Schedule</a>
             <a href="#who-we-serve" className="hover:text-teal-600 transition-colors">Who We Serve</a>
             <a
               href="https://app.jackrabbitclass.com/jr4.0/parentportal/login?orgid=557994"
@@ -53,6 +59,8 @@ function App() {
           </div>
         
           {/* Mobile Register */}
+          <div className="md:hidden flex items-center gap-3">
+          <a href="#schedule" className="text-sm font-medium text-teal-700 hover:text-teal-600 transition-colors">Schedule</a>
           <a
             href="https://app.jackrabbitclass.com/jr4.0/parentportal/login?orgid=557994"
             target="_blank"
@@ -61,6 +69,7 @@ function App() {
           >
             Register
           </a>
+          </div>
         </div>
       </nav>
 
@@ -273,6 +282,29 @@ function App() {
         </div>
       </section>
       
+      {/* Class Schedule Section */}
+      <section id="schedule" className="schedule-section py-20 bg-teal-50" aria-labelledby="schedule-heading">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col items-center text-center gap-4 mb-14">
+            <span className="text-teal-500 font-semibold text-sm uppercase tracking-wider">Find Your Swim Time</span>
+            <h2 id="schedule-heading" className="text-3xl sm:text-4xl font-bold text-slate-800">Class Schedule</h2>
+            <p className="text-slate-500 max-w-xl">Explore our current swim lessons and availability. Select a class below to get started.</p>
+          </div>
+          <div className="schedule-frame-container">
+            <iframe
+              srcDoc={scheduleDocument}
+              title="All Abilities Swim Academy class schedule and registration"
+              className="schedule-frame"
+              loading="lazy"
+            />
+          </div>
+          <p className="schedule-links text-sm text-slate-600">
+            <a href={classScheduleUrl} target="_blank" rel="noopener noreferrer">Open class schedule in a new tab</a>
+            <a href={eventCalendarUrl} target="_blank" rel="noopener noreferrer">View event calendar</a>
+          </p>
+        </div>
+      </section>
+
       {/* Who We Serve Section */}
       <section id="who-we-serve" className="py-20 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-teal-300 via-blue-300 to-cyan-300 opacity-40"></div>
@@ -452,6 +484,7 @@ function App() {
               <ul className="space-y-2 text-sm text-teal-300">
                 <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
                 <li><a href="#programs" className="hover:text-white transition-colors">Programs</a></li>
+                <li><a href="#schedule" className="hover:text-white transition-colors">Class Schedule</a></li>
                 <li><a href="#who-we-serve" className="hover:text-white transition-colors">Who We Serve</a></li>
                 <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
               </ul>
