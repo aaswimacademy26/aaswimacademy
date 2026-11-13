@@ -8,6 +8,17 @@ export function enhanceSchedule() {
     return new Date(Number(match[3]), Number(match[1]) - 1, Number(match[2]))
       .toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   };
+  // Jackrabbit lists classes in its own order, so sort keys are derived here:
+  // minutes after midnight for the start time, and a timestamp for the start date.
+  const startMinutes = (value) => {
+    const match = value.match(/(\d{1,2})(?::(\d{2}))?\s*([ap])\.?m/i);
+    if (!match) return Infinity;
+    return (Number(match[1]) % 12 + (match[3].toLowerCase() === 'p' ? 12 : 0)) * 60 + Number(match[2] || 0);
+  };
+  const dateValue = (value) => {
+    const match = value.trim().match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+    return match ? new Date(Number(match[3]), Number(match[1]) - 1, Number(match[2])).getTime() : Infinity;
+  };
   function render() {
     const source = [...host.querySelectorAll('table')].find((table) =>
       [...(table.rows[0]?.cells || [])].some((cell) => normalize(cell.textContent) === 'class'));
@@ -23,6 +34,7 @@ export function enhanceSchedule() {
       const link = row.cells[index('register')]?.querySelector('a');
       return {
         name: value('class'), day: value('days'), time: value('times'), age: value('ages'),
+        minutes: startMinutes(value('times')), starts: dateValue(start),
         spots: value('openings'), date: start === end || !end ? dateLabel(start) : dateLabel(start) + ' – ' + dateLabel(end),
         fee: fee && Number.isFinite(amount) ? new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 2 }).format(amount) : fee,
         link,
@@ -43,6 +55,15 @@ export function enhanceSchedule() {
     const recordDays = (record) => days.filter((day) => record.day.toLowerCase().includes(day.toLowerCase()));
     days.filter((day) => records.some((record) => recordDays(record).includes(day)))
       .forEach((day) => daySelect.add(new Option(day, day)));
+    const firstDay = (record) => {
+      const position = days.findIndex((day) => recordDays(record).includes(day));
+      return position < 0 ? days.length : position;
+    };
+    // Earliest to latest: by day of the week (unless one day is selected), then
+    // start time, then start date. Ties keep Jackrabbit's original order.
+    const inOrder = (list, byDay) => [...list].sort((a, b) =>
+      (byDay ? firstDay(a) - firstDay(b) : 0) || (a.minutes === b.minutes ? 0 : a.minutes - b.minutes)
+      || (a.starts === b.starts ? 0 : a.starts - b.starts));
     const table = make('table', undefined, 'class-table');
     const head = table.createTHead().insertRow();
     ['Class', 'Day', 'Time', 'Ages', 'Spots Available', 'Date', 'Fee', ''].forEach((label) => {
@@ -63,8 +84,8 @@ export function enhanceSchedule() {
       return link;
     };
     function update() {
-      const filtered = records.filter((record) => (!classSelect.value || record.name === classSelect.value)
-        && (!daySelect.value || recordDays(record).includes(daySelect.value)));
+      const filtered = inOrder(records.filter((record) => (!classSelect.value || record.name === classSelect.value)
+        && (!daySelect.value || recordDays(record).includes(daySelect.value))), !daySelect.value);
       body.replaceChildren();
       cards.replaceChildren();
       filtered.forEach((record) => {
