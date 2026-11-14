@@ -97,7 +97,7 @@ function App() {
           
           {/* Paragraph */}
           <p className="text-lg sm:text-xl text-slate-600 leading-relaxed w-full sm:w-[672px]">
-            We offer swim lessons for all abilities, with specialized instruction in survival swimming, adaptive lessons for special needs, and supportive training for adults.
+            We offer swim lessons for all abilities, with specialized instruction in survival swimming, adaptive survival lessons for special needs, and supportive training for adults.
           </p>
       
           {/* Buttons */}
@@ -135,11 +135,11 @@ function App() {
               </h2>
       
               <p className="text-slate-600 leading-relaxed">
-                At All Abilities Swim Academy we are committed to providing adaptive swim instruction for children and adults. Our approach is designed to create a positive, comfortable, and supportive learning environment that caters to each individual's unique needs.
+                At All Abilities Swim Academy we are committed to providing adaptive survival swim instruction for children and adults. Our approach is designed to create a positive, comfortable, and supportive learning environment that caters to each individual's unique needs.
               </p>
       
               <p className="text-slate-600 leading-relaxed">
-                Our program is built on the foundation of individualized attention and adaptive teaching techniques to help you or your loved one feel confident and empowered in the water.
+                Our program is built on the foundation of individualized attention and adaptive survival teaching techniques to help you or your loved one feel confident and empowered in the water.
               </p>
       
               {/* Checkbox Features */}
@@ -212,7 +212,7 @@ function App() {
               </p>
       
               <p className="text-slate-600 leading-relaxed">
-                She started teaching swimming lessons at age 16 and has since dedicated her career to specialized instruction. She is IBCCES Autism Certified and a Level 2 Swim Angelfish Adaptive Swim Instructor. Specializing in working with students with a variety of special needs, including  Autism Spectrum Disorder Levels 1, 2, and 3, verbal and non-verbal.
+                She started teaching swimming lessons at age 16 and has since dedicated her career to specialized instruction. She is IBCCES Autism Certified, Squiddles Survival Swim Certified, and a Level 3 Swim Angelfish Adaptive Swim Instructor. Specializing in working with students with a variety of special needs, including  Autism Spectrum Disorder Levels 1, 2, and 3, verbal and non-verbal.
               </p>
       
               <p className="text-slate-600 leading-relaxed">
@@ -246,7 +246,7 @@ function App() {
               gradient: "from-teal-400 to-cyan-400",
               bgColor: "bg-teal-50"
             }, {
-              title: "Adaptive Lessons",
+              title: "Adaptive Survival Lessons",
               subtitle: "Age 6 month+",
               description: "We are certified Swim Whisperers® to teach adaptive survival swim to children and adults with special needs.",
               features: ["Monday-Thursday", "4 sessions per week", "$170 per week", "~4 weeks to complete"],
@@ -316,7 +316,7 @@ function App() {
             <span className="text-teal-500 font-semibold text-sm uppercase tracking-wider">Who We Serve</span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-800">Swim Lessons Tailored to Your Needs</h2>
             <p className="text-slate-500 max-w-xl mx-auto">
-              Our adaptive program serves individuals with a wide range of conditions and abilities. No two students are the same, and neither are our lessons.
+              Our adaptive survival program serves individuals with a wide range of conditions and abilities. No two students are the same, and neither are our lessons.
             </p>
           </div>
       
@@ -476,7 +476,7 @@ function App() {
                 <span className="font-bold text-white text-lg">All Abilities Swim Academy</span>
               </div>
               <p className="text-sm text-teal-300 leading-relaxed text-left">
-                Adaptive swim instruction for children and adults of all abilities.
+                Adaptive survival swim instruction for children and adults of all abilities.
               </p>
             </div>
             <div>
