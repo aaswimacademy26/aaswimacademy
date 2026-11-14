@@ -236,27 +236,34 @@ function App() {
           </div>
       
           {/* Program Cards */}
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Each card */}
             {[{
               title: "Survival Swimming",
               subtitle: "Age 6 month+",
               description: "We teach water safety and emergency survival skills in a calm, highly personalized one-on-one setting.",
-              features: ["Monday-Thursday", "4 sessions per week", "$170 per week", "~4 weeks to complete"],
+              features: ["Monday-Thursday", "10-15 minute classes", "4 classes per week for 4 weeks", "$650 per student"],
               gradient: "from-teal-400 to-cyan-400",
               bgColor: "bg-teal-50"
             }, {
               title: "Adaptive Survival Lessons",
               subtitle: "Age 6 month+",
               description: "We are certified Swim Whisperers® to teach adaptive survival swim to children and adults with special needs.",
-              features: ["Monday-Thursday", "4 sessions per week", "$170 per week", "~4 weeks to complete"],
+              features: ["Monday-Thursday", "10-15 minute classes", "4 classes per week for 4 weeks", "$650 per student"],
+              gradient: "from-blue-400 to-teal-400",
+              bgColor: "bg-blue-50"
+            }, {
+              title: "Practice Weeks",
+              subtitle: "Age 6 month+",
+              description: "For returning students that have completed a 4 week session, we offer individual practice weeks.",
+              features: ["Monday-Thursday", "10-15 minute classes", "4 classes per week", "$170 per week"],
               gradient: "from-blue-400 to-teal-400",
               bgColor: "bg-blue-50"
             }, {
               title: "Teen/Adult Training",
               subtitle: "Ages 13+",
               description: "We offer supportive lessons for older swimmers with particular care for those with water anxiety or past water trauma.",
-              features: ["Weekdays or weekends", "Flexible scheduling", "$55 + $5 pool fee per session", "30 minutes per session"],
+              features: ["Weekdays or weekends", "Flexible scheduling", "$60 per class", "30 minutes per class"],
               gradient: "from-cyan-400 to-sky-400",
               bgColor: "bg-cyan-50"
             }].map((program, idx) => (
