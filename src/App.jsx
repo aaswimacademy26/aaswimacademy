@@ -292,7 +292,7 @@ function App() {
       </section>
           
       {/* Registration Information Section */}
-      <section className="bg-white" style={{ padding: "112px 16px 96px" }}>
+      <section className="bg-white" style={{ padding: "80px 16px 80px" }}>
         <div style={{ maxWidth: "672px", margin: "0 auto", textAlign: "center" }}>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
             There is a $25.00 non-refundable registration fee that is good for 12 months.
