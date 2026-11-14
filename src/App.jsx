@@ -75,7 +75,7 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative pt-16 bg-gradient-to-br from-teal-50 via-blue-50 to-cyan-50 overflow-hidden">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-36 flex flex-col items-center text-center gap-8 sm:gap-10 relative z-10">          
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 md:pt-16 md:pb-36 flex flex-col items-center text-center gap-8 sm:gap-10 relative z-10">          
           
           {/* Tagline */}
           <div className="inline-flex items-center gap-2 bg-teal-100 text-teal-700 text-sm font-medium px-4 py-1.5 rounded-full">
