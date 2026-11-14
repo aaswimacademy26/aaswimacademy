@@ -213,7 +213,7 @@ function App() {
               </p>
       
               <p className="text-slate-600 leading-relaxed">
-                She started teaching swimming lessons at age 16 and has since dedicated her career to specialized instruction. She is IBCCES Autism Certified, Squiddles Survival Swim Certified, and a Level 3 Swim Angelfish Adaptive Swim Instructor. Specializing in working with students with a variety of special needs, including  Autism Spectrum Disorder Levels 1, 2, and 3, verbal and non-verbal.
+                She started teaching swimming lessons at age 16 and has since dedicated her career to specialized instruction. She is IBCCES Autism Certified, Squiddles Survival Swim Certified, and a Level 3 Swim Angelfish Adaptive Swim Instructor. She is trained in working with students with a variety of special needs, including  Autism Spectrum Disorder Levels 1, 2, and 3 (verbal and non-verbal).
               </p>
       
               <p className="text-slate-600 leading-relaxed">
