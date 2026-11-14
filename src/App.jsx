@@ -256,7 +256,7 @@ function App() {
             }, {
               title: "Practice Weeks",
               subtitle: "Age 6 month+",
-              description: "For returning students that have completed a 4 week session, we offer individual practice weeks.",
+              description: "For returning students that have completed a 4-week session, we offer individual practice weeks.",
               features: ["Monday-Thursday", "10-15 minute classes", "4 classes per week", "$170 per week"],
               gradient: "from-blue-400 to-teal-400",
               bgColor: "bg-blue-50"
