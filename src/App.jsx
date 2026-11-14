@@ -510,7 +510,7 @@ function App() {
               <ul className="space-y-2 text-sm text-teal-300">
                 <li className="flex items-center gap-2">
                   <FaEnvelope size={16} />
-                  <a href="mailto:aaswimacademy26@gmail.com" className="hover:text-white transition-colors">
+                  <a href="mailto:jodi@allabilitiesswimmi.com" className="hover:text-white transition-colors">
                     aaswimacademy26@gmail.com
                   </a>
                 </li>
