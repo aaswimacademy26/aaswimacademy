@@ -288,14 +288,16 @@ function App() {
             ))}
           </div>
           
-        {/* Registration Information */}
-        <div className="mt-20 py-10 px-4 bg-teal-50 rounded-2xl text-center">
-          <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-            There is a $25.00 non-refundable registration fee that is good for 12 months.
-            This allows you to reserve a time slot until the 30 day pay-in-full deadline.
-            This does not go towards session fees.
-          </p>
-        </div>
+        {/* Registration Information Section */}
+        <section className="py-16 bg-teal-50">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto text-center leading-relaxed">
+              There is a $25.00 non-refundable registration fee that is good for 12 months.
+              This allows you to reserve a time slot until the 30 day pay-in-full deadline.
+              This does not go towards session fees.
+            </p>
+          </div>
+        </section>
           
         </div>
       </section>
