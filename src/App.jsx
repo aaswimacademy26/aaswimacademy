@@ -83,8 +83,9 @@ function App() {
           </div>
       
           {/* Heading */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-teal-700 leading-tight">
-            Everyone Deserves to<br/>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+            <span className="text-slate-900">Everyone Deserves to</span>
+            <br />
             <span className="text-teal-500">Feel Safe in the Water</span>
           </h1>
           
