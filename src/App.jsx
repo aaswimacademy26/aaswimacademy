@@ -287,13 +287,15 @@ function App() {
               </div>
             ))}
           </div>
-
-          {/* Section Footer */}
-          <div className="flex flex-col items-center text-center pt-28">
-            <p className="text-slate-500 text-sm max-w-xl">
-                There is a $25.00 non-refundable registration fee that is good for 12 months. This allows you to reserve a time slot until the 30 day pay-in-full deadline. This does not go towards session fees.
-            </p>
-          </div>
+          
+        {/* Registration Information */}
+        <div className="mt-20 py-10 px-4 bg-teal-50 rounded-2xl text-center">
+          <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+            There is a $25.00 non-refundable registration fee that is good for 12 months.
+            This allows you to reserve a time slot until the 30 day pay-in-full deadline.
+            This does not go towards session fees.
+          </p>
+        </div>
           
         </div>
       </section>
