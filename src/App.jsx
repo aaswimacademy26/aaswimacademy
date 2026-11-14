@@ -292,13 +292,15 @@ function App() {
       </section>
           
       {/* Registration Information Section */}
-      <section className="pt-28 pb-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto text-center leading-relaxed">
-            There is a $25.00 non-refundable registration fee that is good for 12 months.
-            This allows you to reserve a time slot until the 30 day pay-in-full deadline.
-            This does not go towards session fees.
-          </p>
+      <section className="pt-28 pb-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
+          <div className="max-w-2xl text-center">
+            <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+              There is a $25.00 non-refundable registration fee that is good for 12 months.
+              This allows you to reserve a time slot until the 30 day pay-in-full deadline.
+              This does not go towards session fees.
+            </p>
+          </div>
         </div>
       </section>
       
